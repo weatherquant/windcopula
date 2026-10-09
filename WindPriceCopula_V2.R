@@ -1,6 +1,9 @@
-cat("\nEstimation complete.\n")
-cat("Outputs saved to:\n", output_directory, "\n")
-# Jason West
+# ============================================================
+# Regime-Aware Bivariate Copula Modelling 
+# of Wind-Price Risk
+# ============================================================
+#
+# Jason West - Bureau of Meteorology
 # Submitted for consideration to Journal of Energy Markets
 #
 # Corrected estimation script
@@ -57,8 +60,7 @@ library(ggExtra)
 library(viridis)
 
 # ---- set dir ----
-setwd('C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/Documents/Data/Wind/Copulas')
-data_directory <- 'C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/Documents/Data/Wind/Copulas'
+data_directory <- 'C:/'
 
 price_generation_file <- "pricegen.csv"
 wind_file             <- "winds.csv"
